@@ -7,8 +7,14 @@
     "start": "webpack-dev-server --history-api-fallback --inline --progress"
   },
   "dependencies": {
+    "html-webpack-plugin": "^4.0.4",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0"
   }
 }

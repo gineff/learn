@@ -8,6 +8,11 @@ module.exports = {
   },
   module: {  // where we defined file patterns and their loaders
     rules: [
+      {
+        test:/\.js$/,
+        use: "babel-loader",
+        exclude: [/node_modules/]
+      }
     ]
   },
   plugins: [  // Array of plugins to apply to build chunk
